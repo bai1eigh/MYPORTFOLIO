@@ -1,0 +1,56 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+#aboutMe{
+color:#20c20e ;
+position: absolute;
+top: 350px;
+font-size: 35px;
+left: 200px; 
+}
+
+#begin, #middle, #end {
+    position: absolute;
+    left: 200px; 
+    color: #9ccc9c;
+   
+}
+
+#begin{
+    top: 440px;
+}
+
+#middle{
+    top:500px;
+}
+
+#end{
+    top: 580px;
+}
+
+.skills li a{
+    position: relative;
+    bottom: 600px;
+    left: 70%;
+    color: #649566;
+}
+
+.skills p{
+    color: #20c20e;
+    font-size: 35px;
+    left: 70%;
+    position: absolute;
+    top: 350px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top:450px;
+}
