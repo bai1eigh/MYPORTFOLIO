@@ -8,32 +8,6 @@ font-family: 'Russo', sans-serif;
 background-color: rgb(5, 18, 44);
 }
 
-
-
-section{
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-overflow: hidden;
-flex-wrap: wrap;
-min-width:1000px;
-background-color:  rgb(5, 18, 44);
-}
-
-section .introText{
-    position: absolute;
-    color: #20C20E;
-    margin: 40px;
-    max-width: 854px;
-}
-
-section .introText span{
- position: relative;
- display: inline-block;
-}
-
 /*navbar*/
 *,
 *::after,
@@ -116,6 +90,89 @@ section .introText span{
     color: #11791a;
 }
 
+/*section*/
+section{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+overflow: hidden;
+flex-wrap: wrap;
+min-width:1000px;
+background-color:  rgb(5, 18, 44);
+}
+
+section .introText{
+    position: absolute;
+    color: #20C20E;
+    margin: 40px;
+    max-width: 854px;
+}
+
+section .introText span{
+ position: relative;
+ display: inline-block;
+}
+
+/*Introduction*/
+
+.introduction{
+    position: absolute;
+    text-align: center;
+    margin: 40px;
+    max-width: 854px;
+    top: 290px;
+}
+
+#name{
+    position: relative;
+    font-size: 60px;
+    color: #9ccc9c; 
+    right: 170px;
+}
+
+#occupation{
+    font-size: 40px;
+    color: #2a9b24a4;
+    position: relative;
+    right: 230px;
+}
+
+#seeMore{
+    position: relative;
+    color: #11791a;
+    right: 20.5vw;
+    top: 6vh;
+}
+
+.pic .button{
+    left: 30%;
+    top: 53%;
+}
+
+.socialLinks{
+    position: absolute;
+    left: 515px;
+    top: 58%;
+}
+
+.socialLinks img{
+    padding: 10px 15px;
+}
+
+.socialLinks ul li{
+    display: inline;
+    float: right;
+}
+.vl {
+    border-left: 2px solid green;
+    height: 100px;
+    position: absolute;
+    left: 40px;
+   
+}
+
 /*scroll right*/
 .button {
     position: absolute;
@@ -165,64 +222,3 @@ section .introText span{
     color: whitesmoke;
   }
 
-/*Introduction*/
-
-.introduction{
-    position: absolute;
-    text-align: center;
-    margin: 40px;
-    max-width: 854px;
-    top: 290px;
-}
-
-#name{
-    position: relative;
-    font-size: 60px;
-    color: #9ccc9c; 
-    right: 170px;
-}
-
-#occupation{
-    font-size: 40px;
-    color: #2a9b24a4;
-    position: relative;
-    right: 230px;
-}
-
-#seeMore{
-    position: absolute;
-    color: #11791a;
-}
-  
-.pic a{
-    position: absolute;
-    top: 55%;
-    left: 533px;
-}
-
-.pic .button{
-    left: 30%;
-    top: 53%;
-}
-
-.socialLinks{
-    position: absolute;
-    left: 515px;
-    top: 58%;
-}
-
-.socialLinks img{
-    padding: 10px 15px;
-}
-
-.socialLinks ul li{
-    display: inline;
-    float: right;
-}
-.vl {
-    border-left: 2px solid green;
-    height: 100px;
-    position: absolute;
-    left: 40px;
-   
-}
