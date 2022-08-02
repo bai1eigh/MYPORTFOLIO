@@ -224,8 +224,8 @@ section .introText span{
     color: whitesmoke;
   }
 
-  /*phone*/
-  @media only screen and (max-width: 900px) {
+  /*phone first: logo*/
+  @media screen and (min-width: 414px)  {
     .logo a{
         width: 50%;
         display: flex;
@@ -236,7 +236,29 @@ section .introText span{
     }
   }
 
-  @media only screen and (max-width: 900px) {
+  @media screen and (min-width: 769px) {
+    .logo a{
+        width: 50%;
+        display: flex;
+        position: absolute;
+        right: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .logo a{
+        width: 50%;
+        display: flex;
+        position: absolute;
+        right: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+/*intro text*/
+  @media (min-width: 414px) and (max-width: 979px) {
     section .introText{
     position: absolute;
       left:4vw;
@@ -245,16 +267,48 @@ section .introText span{
     }
   }
 
-  @media only screen and (max-width: 900px) {
+  @media screen and (min-width: 481px) {
+    section .introText{
+    position: absolute;
+      left:4vw;
+      top:60vh;
+      right: 45%;
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    section .introText{
+    position: absolute;
+      left:4vw;
+      top:60vh;
+      right: 45%;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    section .introText{
+    position: absolute;
+      left:492px;
+      top:43vh;
+      right:32%;
+    }
+  }
+
+/*below intro*/
+  @media (min-width: 414px) and (max-width: 1025px) {
     #seeMore, .button, .socialLinks img{
         display: none;
     }
   }
 
-  @media only screen and (max-width: 900px) {
+/*navbar*/
+ @media (min-width: 414px) and (max-width: 1025px) {
    .navLinks a{
     display: block;
     width: 50%;
     left: 40px;
     }
   }
+
+ 
+  
