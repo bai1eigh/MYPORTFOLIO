@@ -247,7 +247,7 @@ section .introText span{
     }
   }
 
-  @media screen and (min-width: 1025px) {
+  @media screen and (min-width: 1225px) {
     .logo a{
         width: 50%;
         display: flex;
@@ -285,7 +285,7 @@ section .introText span{
     }
   }
 
-  @media screen and (min-width: 1025px) {
+  @media screen and (min-width: 1225px) {
     section .introText{
     position: absolute;
       left:492px;
@@ -295,14 +295,14 @@ section .introText span{
   }
 
 /*below intro*/
-  @media (min-width: 414px) and (max-width: 1025px) {
+  @media (min-width: 414px) and (max-width: 1225px) {
     #seeMore, .button, .socialLinks img{
         display: none;
     }
   }
 
 /*navbar*/
- @media (min-width: 414px) and (max-width: 1025px) {
+ @media (min-width: 414px) and (max-width: 1225px) {
    .navLinks a{
     display: block;
     width: 50%;

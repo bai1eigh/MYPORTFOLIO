@@ -56,8 +56,7 @@ p {
   left: -7px;
   border-radius: 10px;
   content: "";
-  border: 2px solid rgba(0, 0, 0, 0.3);
-  background: white;
+
 }
 .timeline-item:last-child {
   -o-border-image: linear-gradient(to bottom, #1ba616 60%, rgba(0, 0, 0, 0)) 1 100%;
