@@ -47,7 +47,6 @@ background-color: rgb(5, 18, 44);
     align-items: center;
 }
 
-
 .menu-items /*r the links*/{
     position: relative;
     left: 40%;
@@ -108,11 +107,15 @@ section .introText{
     color: #20C20E;
     margin: 40px;
     max-width: 854px;
+   left: 25.5vw;
+   bottom: 45vh;
+  
+  
 }
 
 section .introText span{
- position: relative;
  display: inline-block;
+ 
 }
 
 /*Introduction*/
@@ -170,13 +173,12 @@ section .introText span{
     height: 100px;
     position: absolute;
     left: 40px;
-   
 }
 
 /*scroll right*/
 .button {
     position: absolute;
-    top: 60%;
+    top: 53%;
     left: 30%;
     height: 60px;
     width: 100px;
@@ -222,3 +224,37 @@ section .introText span{
     color: whitesmoke;
   }
 
+  /*phone*/
+  @media only screen and (max-width: 900px) {
+    .logo a{
+        width: 50%;
+        display: flex;
+        position: absolute;
+        right: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    section .introText{
+    position: absolute;
+      left:4vw;
+      top:60vh;
+      right: 45%;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    #seeMore, .button, .socialLinks img{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+   .navLinks a{
+    display: block;
+    width: 50%;
+    left: 40px;
+    }
+  }
