@@ -1,44 +1,48 @@
-*
-{
-    padding: 0;
-    margin: 0;
-}
+/*reference*/
 
-#aboutMe{
-color:#20c20e ;
-position: absolute;
-top: 350px;
-font-size: 35px;
-left: 200px; 
+h1{
+    font-size:60px ;
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  aside {
+    flex: 1;
+    padding: 20px;
+   padding-top: 80px;
 
-#begin, #middle, #end {
-    position: absolute;
-    left: 200px; 
-    color: #9ccc9c;
-   
-}
+  }
+  
+  section {
+    flex: 3;
+    padding: 20px;
 
-#begin{
-    top: 440px;
-}
-
-#middle{
-    top:500px;
-}
-
-#end{
-    top: 580px;
-}
+  }
 
 .skills ul li a{
-    position: relative;
-    bottom: 600px;
-    left: 70%;
     color: #649566;
 }
 
-.skills p{
+.vl { 
+    position: absolute;
+    border-left: 2px solid green;
+    height: 100px;
+    left: 95%;
+    top: 45%;
+} 
+
+  #begin, #middle, #end {
+    color: #9ccc9c;
+   
+}
+  
+aside h2{
     color: #20c20e;
     font-size: 35px;
     left: 70%;
@@ -46,11 +50,23 @@ left: 200px;
     top: 350px;
 }
 
-.vl {
-    border-left: 6px solid green;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top:450px;
+#skillsHead{
+    color:#20c20e;
+    font-size: 30px;
+    line-height: 2;
+    position: relative;
+    bottom: 1.2vh;
 }
+
+  @media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav {
+      flex-direction: column;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      order: 2;
+    }
+  }
+  

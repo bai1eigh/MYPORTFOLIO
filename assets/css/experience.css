@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700");
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 14px;
   line-height: 1.5;
@@ -23,8 +28,9 @@ p {
   width: 90%;
   margin: 0 auto;
   position: relative;
-  top:27vh;
+  top:10vh;
   left: 17%;
+  
 }
 
 .timeline-item {
@@ -64,10 +70,21 @@ p {
 }
 
 .vl {
-  border-left: 6px solid green;
-  height: 100px;
-  position: relative;
-  left: 50%;
-  margin-left: -3px;
-  top:450px;
+ display:none;
+}
+
+section {
+  flex: 3;
+  padding: 20px;
+}
+
+#rotate-text {
+  position: absolute;
+  width: 20px;
+  bottom: 400px;
+  opacity:  0.2;
+  font-family: Arial, Helvetica, sans-serif;
+  color:green;
+  right: 10%;
+  transform: rotate(90deg);
 }
