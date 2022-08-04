@@ -105,17 +105,17 @@
   }
 
   #seeMore{
-    position: absolute;
+    position: relative;
     color: #11791a;
-    left: 27%;
-    bottom: 36vh;
+    right: 21.8%;
+    bottom: 4vh;
 }
 
 /*scroll right*/
 .button {
-    position: absolute;
-    bottom: 36.8vh;
-    left: 35%;
+    position: relative;
+    bottom: 4vh;
+    right: 17%;
     background: transparent;
   }
   
